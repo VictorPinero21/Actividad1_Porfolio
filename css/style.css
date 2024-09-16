@@ -1,0 +1,69 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+.yelow{
+color: greenyellow;
+}
+/* Aqui empieza el css para la parte izquierda  */
+.perfil{
+    background-color: rgb(66, 57, 57);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ align-items: center;
+ min-width: 275px;
+height: 100vh;
+}
+.foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foto p {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.foto img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.box{
+    background-color: rgb(255, 211, 211);
+    margin: 10px;
+}
+/* Css para la parte derecha  */
+.contenedor_informacion{
+    max-width: 100%;
+    background-color: rgb(84, 70, 70);
+}
+.flex{
+    display: flex;
+}
+.box_info2{
+    
+    flex-wrap: wrap;
+    margin: 20px;
+    
+}
+.titulo{
+    display: flex;
+    align-items: left;
+   
+   
+}
+.box_flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+ 
+}
+.box_flex img{
+    width: 250px;
+    height: 150px;
+}
+.imagenes{
+    margin: 10px;
+}
