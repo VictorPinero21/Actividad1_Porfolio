@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
 <body>
@@ -19,16 +20,166 @@
                     <h3>Pepito Perez</h3>
                     <p>DAW2 Front-End Developer</p>
                 </div>
-                <div class="box">Inicio</div>
-                <div class="box">Sobre mi</div>
-                <div class="box">Formacion</div>
-                <div class="box">Mi Portofolio (Mis cositas)</div>
-                <div class="box">Contacto</div>
+                <div class="box">
+                    <a href="#seccion1" class="button">Inicio</a>
+                    <a href="#seccion2" class="button">Sobre mi</a>
+                    <a href="#seccion3" class="button">Formacion</a>
+                    <a href="#seccion4" class="button">Mi portfolio</a>
+                    <a href="#seccion5" class="button">Contacto</a>
+                </div>
+
             </div>
         </article>
-       
 
-    </div>
+        <!-- Aqui empieza la parte derecha con la informacion de la persona -->
+        <div class="contenedor_informacion">
+            <!-- 1º caja de informacion -->
+            <div class="box_info" id="seccion1">
+                <h1>Hola!!!</h1>
+                <h2>Soy <span>Pepito Perez</span></h2>
+                <h3>Aqui contamos un poco quien soy,pero poco y que me gusta mucho el mundo web y que soy trabajador
+                </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quod voluptatum modi dolor vel
+                    recusandae fugiat autem deleniti eveniet at harum ex expedita neque quis a sunt amet, molestias
+                    perferendis!</p>
+
+            </div>
+            <!-- 2ºCaja de informacion -->
+            <div class="box_info2" id="seccion2">
+                <h1>Mi <span class="yelow">Formacion</span></h1>
+                <div class="box_info_flex">
+                    <!-- Etiquetas -->
+                    <h1>2022</h1>
+                    <h2><span class="yelow">Bootcamp FullStack Developer</span></h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut recusandae, quidem in excepturi
+                        suscipit ipsa quae nostrum modi iusto accusantium numquam, maiores vel dolorem quia ducimus,
+                        animi ad consectetur architecto?</p>
+                </div>
+
+
+
+
+                <div class="box_info_flex">
+                    <!-- Etiquetas -->
+                    <h1>2021</h1>
+                    <h2><span class="yelow">Introducion a Javascript</span></h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut recusandae, quidem in excepturi
+                        suscipit ipsa quae nostrum modi iusto accusantium numquam, maiores vel dolorem quia ducimus,
+                        animi
+                        ad consectetur architecto?</p>
+                </div>
+
+
+
+
+                <div class="box_info_flex">
+                    <!-- Etiquetas -->
+                    <h1>2020</h1>
+                    <h2>Curso de HTML y CSS</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut recusandae, quidem in excepturi
+                        suscipit
+                        ipsa quae nostrum modi iusto accusantium numquam, maiores vel dolorem quia ducimus, animi ad
+                        consectetur
+                        architecto?</p>
+                </div>
+
+
+                <div class="box_info_flex">
+                    <!-- Etiquetas -->
+                    <h1>2019</h1>
+                    <h2>tecnicas Basicas HTML</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut recusandae, quidem in excepturi
+                        suscipit
+                        ipsa
+                        quae nostrum modi iusto accusantium numquam, maiores vel dolorem quia ducimus, animi ad
+                        consectetur
+                        architecto?</p>
+                </div>
+
+            </div>
+            <!-- Pantalla 3 -->
+            <div class="box_info2" id="seccion3">
+                <div class="titulo">
+                    <h1>Mi <span class="yelow">Portfolio</span></h1>
+                </div>
+                <div class="flex">
+                    <div class="box_flex">
+                        <div class="imagenes">
+                            <img src="./assets/images/floristeria.png" alt="">
+                        </div>
+                        <div class="imagenes">
+                            <img src="./assets/images/mosca.png" alt="">
+                        </div>
+                        <div class="imagenes">
+                            <img src="./assets/images/oscuro.png" alt="">
+                        </div>
+                        <div class="imagenes">
+                            <img src="./assets/images/claro.png" alt="">
+                        </div>
+
+
+                    </div>
+                    <div class="box_flex">
+                        <div class="imagenes">
+                            <img src="./assets/images/paris.png" alt="">
+                        </div>
+                        <div class="imagenes">
+                            <img src="./assets/images/pasteleria.png" alt="">
+                        </div>
+                        <div class="imagenes">
+                            <img src="./assets/images/travels.png" alt="">
+                        </div>
+                        <div class="imagenes">
+                            <img src="./assets/images/toledo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Pantalla 4 -->
+            <div class="box_info2" id="seccion3">
+                <div class="titulo">
+                    <h1>Sobre <span class="yelow">mi</span></h1>
+                </div>
+            </div>
+            <div class="flex2">
+                <div class="arriba">
+                    <p>Nombre: <span class="yelow">Pepito Perez</span></p>
+                    <p>Edad: <span class="yelow">22</span></p>
+                    <p>Formacion: <span class="yelow">Tecnico Superior en DAW</span></p>
+                    <p>Perfil: <span class="yelow">Front-End Developer</span></p>
+                    <p>Idioma: <span class="yelow">Ingles</span></p>
+                    <p>Hobbies: <span class="yelow">Cazar gamusinos...</span></p>
+                    <a href="" class="cv">Descarga CV <i class="aboutdata__fas fas fa-download verde"></i></a>
+                </div>
+                <div class="abajo">
+                    <div class="box3">
+                        <h2>2+</h2>
+                        <P>Años de experiencia</P>
+                    </div>
+                    <div class="box3">
+                        <h2>125+</h2>
+                        <P>Proyectos Realizados</P>
+                    </div>
+                    <div class="box3">
+                        <h2>30+</h2>
+                        <P>Clientes</P>
+                    </div>
+                    <div class="box3">
+                        <h2>2+</h2>
+                        <P>Premios Ganados</P>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
     </div>
 
 
